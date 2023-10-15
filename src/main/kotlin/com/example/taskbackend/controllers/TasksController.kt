@@ -48,4 +48,10 @@ class TasksController {
                     .created(location)
                     .build()
     }
+
+    fun infinite(){
+        while (true){
+
+        }
+    }
 }
