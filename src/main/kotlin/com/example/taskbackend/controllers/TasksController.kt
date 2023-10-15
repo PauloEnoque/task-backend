@@ -50,8 +50,12 @@ class TasksController {
     }
 
     fun infinite(){
+        var counterv = 0
         while (true){
-
+            counterv =+ 1
+            if (false){
+                counterv = 0
+            }
         }
     }
 }
