@@ -28,7 +28,8 @@ dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-reflect'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    implementation 'mysql:mysql-connector-java:8.0.26'
+    implementation 'mysql:mysql-connector-java:8.0.28'
+    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 }
 
 tasks.withType(KotlinCompile) {
@@ -44,4 +45,5 @@ tasks.named('test') {
 
 bootWar {
     enabled = true
+    archiveFileName  = 'task-backend.war'
 }
