@@ -1,0 +1,3 @@
+INSERT INTO TASK(ID, NAME, DESCRIPTION) VALUES (1, 'FIRST ONE', 'just the First of many');
+INSERT INTO TASK(ID, NAME, DESCRIPTION) VALUES (2, 'SECOND ONE', 'just the First of many');
+INSERT INTO TASK(ID, NAME, DESCRIPTION) VALUES (3, 'THIRD ONE', 'just the First of many');
